@@ -1,0 +1,7 @@
+@use "./colors.scss";
+@use "./fonts.scss";
+
+body {
+  font-family: fonts.$montserrat, fonts.$defaults;
+  margin: 0;
+}
