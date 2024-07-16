@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="Content-Security-Policy" content="{{ configuration.content_security_policy }}">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="{{ configuration.author }} -- {{ configuration.contributors }}">
+
+    <meta name="description" content="{% block description %}{% endblock %}" />
+
+    <meta name="keywords" content="{{ configuration.keywords }}">
+
+    <meta property=" og:description" content="{% block open_graph_description %}{% endblock %}">
+
+    {% load static %}
+
+    <meta property="og:image" content="{% static 'images/gear.png' %}">
+
+    <meta property="og:title" content="{{ configuration.name }}">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="{{ configuration.base_url }}authentication">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}" />
+
+    <!-- This line is for backwards compatibilty with older browsers. -->
+
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" />
+
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}" />
+
+    {% block additional_metadata %}
+    {% endblock %}
+
+    <title>
+      {% block title %}
+      {% endblock %}
+    </title>
+  </head>
+
+  <body>
+    {% block body %}
+    {% endblock %}
+  </body>
+
+</html>
