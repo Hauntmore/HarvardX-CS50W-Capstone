@@ -1,0 +1,63 @@
+body {
+  background-color: #C1C8E4;
+}
+
+.announcements {
+  padding: 0.5%;
+  background-color: #5680E9;
+  text-align: center;
+}
+
+.announcements a {
+  text-decoration: none;
+}
+
+.title {
+  border: 1px solid #333333;
+  display: inline-flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1%;
+  align-items: center;
+}
+
+.title img {
+  margin-right: 1%;
+  margin-bottom: 0.25%;
+  height: 4%;
+  width: 4%;
+}
+
+.title .name {
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.title .motto {
+  margin-top: 0.25%;
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.navigation {
+  background-color: #FAF0E3;
+  padding: 0.5%;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-left: 6.75%;
+}
+
+.navigation li {
+  margin-right: 10%;
+}
+
+.navigation a {
+  color: #FFB07C;
+}
+
+/*# sourceMappingURL=layout.css.map */
