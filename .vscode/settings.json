@@ -3,6 +3,6 @@
 	"editor.insertSpaces": true,
 	"editor.detectIndentation": false,
   "pylint.args": [
-    "--max-line-length=200"
+    "--max-line-length=250"
   ]
 }
