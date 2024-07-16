@@ -1,0 +1,10 @@
+{
+  "name": "Capstone",
+  "author": "KGear Solutions",
+  "contributors": "Kevin Le (a.k.a. Hauntmore)",
+  "motto": "Where gears drive robust, dynamic innovation.",
+  "site_favicon_icon_alternative_text": "The official favicon icon for the project's site.",
+  "base_url": "http://127.0.0.1:8000/",
+  "keywords": "Aesthetic, Authentication, Backend, Capstone, CSS, Database, Development, Django, Dynamic, edX, Event, Favicon Icon, Final Project, Frontend, Fullstack, Gear, Git, Github, Harvard, HTML, Innovative, JSON, Learning, Management, Migrations, PNG, Python, Robust, Sass, Secret Environment Variables, Self-paced Course, SQLite, System, Technology, Website",
+  "content_security_policy": "default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com"
+}
