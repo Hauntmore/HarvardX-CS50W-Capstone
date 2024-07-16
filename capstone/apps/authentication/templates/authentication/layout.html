@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% load static %}
+
+{% block additional_metadata %}
+
+<link rel="stylesheet" href="{% static 'authentication/css/layout.css' %}" />
+
+{% endblock %}
+
+{% block body %}
+
+<div class="announcements">
+  <p>
+    Want to know about our upcoming updates? Click
+
+    <a href="#">
+      here
+    </a>
+
+    to see the announcements.
+  </p>
+</div>
+
+<nav class="navigation">
+  <ul>
+    <li>
+      <a href="#home">
+        Home
+      </a>
+    </li>
+
+    <li>
+      <a href="#about">
+        About
+      </a>
+    </li>
+
+    <li>
+      <a href="#services">
+        Products
+      </a>
+    </li>
+
+    <li>
+      <a href="#contact">
+        Contact Us
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<h1 class="title">
+  <img src="{% static 'images/gear.png' %}" alt="{{ configuration.site_favicon_icon_alternative_text }}" />
+
+  <span class="name">
+    {{ configuration.author }}
+  </span>
+
+  &nbsp;
+
+  -
+
+  &nbsp;
+
+  <span class="motto">
+    {{ configuration.motto }}
+  </span>
+</h1>
+
+{% block content %}
+{% endblock %}
+
+{% endblock %}
