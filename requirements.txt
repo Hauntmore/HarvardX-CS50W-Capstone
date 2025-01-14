@@ -1,5 +1,5 @@
 asgiref==3.8.1
-django==5.0.7
+django==5.0.10
 django-stubs[compatible-mypy]==5.0.2
 django-stubs-ext==5.0.2
 mypy==1.10.1
